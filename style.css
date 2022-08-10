@@ -18,7 +18,8 @@ body {
 /* Navbar */
 .navbar {
     background-color: lightslategray;
-    padding: 10px 100px;
+    padding: 10px 76px;
+    
 }
 
 /* Logo */
@@ -31,3 +32,9 @@ li {
     list-style: none;
 }
 
+/* Main Content */
+.mainContent {
+    padding-inline: 2em;
+    margin-inline:auto;
+    max-width: 80rem;
+}
