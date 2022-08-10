@@ -1,3 +1,16 @@
 export default function Navbar() {
-  return ( <h1>Navbar goes here</h1>);
+  return ( 
+  <nav className="flex navbar">
+    <img src="./images/silencelogo.png" alt="Secret Logo" className="logo" />
+    <ul className="flex">
+      <li>
+        New 
+      </li>
+      <li>
+        Read
+      </li>
+
+    </ul>
+  </nav>
+  )
 }

@@ -1,0 +1,33 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Flexbox */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: lightslategray;
+    padding: 10px 100px;
+}
+
+/* Logo */
+.logo{
+    width:5%;
+} 
+
+/* List items */
+li {
+    list-style: none;
+}
+
