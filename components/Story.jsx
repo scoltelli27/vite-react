@@ -4,7 +4,7 @@ export default function Story(props) {
         <h1>{props.title}</h1>
         <h2>{props.number}</h2>
         <p>{props.mainStory}</p>
-        <span>Upvotes: {props.upvotes}</span>
+        <span>Upvotes: {props.upvotes}</span> 
         <br />
         <span>Downvotes: {props.downvotes}</span>
         <hr></hr>
