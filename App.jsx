@@ -1,33 +1,28 @@
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
-import Story from "./components/Story"
+import Story from "./components/Story";
+import Comment from "./components/Comment";
+import storyData from "./storyData"
+import Randomstory from  "./components/Randomstory"
 
 export default function App() {
+  // const storyElements = storyData.map(story => {
+  //   return <Story title={story.title} 
+  //   number={story.number} 
+  //   mainStory={story.mainStory} 
+  //   upvotes={story.upvotes} 
+  //   downvotes={story.downvotes} />
+  // })
+
+   
+
   return (
-    <div className="container">
+    <div>
       <Navbar />
       <Main />
-      <Story 
-      title="Random story title"
-      number="#1"
-      mainStory="Main story"
-      upvotes={0}
-      downvotes={0}
-      />
-      <Story 
-      title="Crazy sstory"
-      number="#2"
-      mainStory="Main story"
-      upvotes={0}
-      downvotes={0}
-      />
-      <Story 
-      title="Sad story"
-      number="#3"
-      mainStory="Main story"
-      upvotes={0}
-      downvotes={0}
-      />
+      {/* {storyElements} */}
+      <Randomstory />
+      <Comment />
     </div>
-  );
+  )
 }
